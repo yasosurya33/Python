@@ -11,3 +11,5 @@ for i in dub:
         dub1.append(i)
 for i in dub1:
     print(i,end=" ")
+if dub1==[]:
+    print("unique")
