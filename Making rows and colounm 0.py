@@ -12,7 +12,7 @@ for i in range(a):
 samp=sam.copy()
 for i in range(a):
     for j in range(b):
-            dup=[res(i+1,j),res(i,j-1),res(i-1,j),res(i,j+1),]
+            dup=[res(i+1,j),res(i,j-1),res(i-1,j),res(i,j+1),res(i+2,j),res(i,j-2),res(i-2,j),res(i,j+2)]
             if "0" in dup:
                 samp[i][j]=int(0)
             else:
